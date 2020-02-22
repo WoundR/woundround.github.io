@@ -1,0 +1,162 @@
+html{
+	height:1080px;
+	width:1920px;
+	overflow-x:hidden;
+}
+body{
+	height:100%;
+	width:100%;
+	margin:0;
+	background:url(https://w-dog.ru/wallpapers/7/15/430151427831453/t-34-85-rkka-vojna-znamya-ataka.jpg);
+}
+.header{
+	width:100%;
+	box-shadow:0 0 40px black;
+	height:20%;
+	background:#ececed;
+}
+.header-name{
+	margin-left:100px;
+	position:absolute;
+	font-family:Cuprum;
+}
+.header-links{
+	position:absolute;
+	margin-top:40px;
+	margin-left:860px;
+}
+.header-links > a{
+	padding:15px 15px;
+	color:#ececed;
+	font-size:15;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:#454547;
+	border-radius:40px;
+}
+.header-links > a:hover{
+	padding:17px 17px;
+	transition:0.36s;
+	font-size:17px;
+	border-radius:15px;
+	color:#ececed;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:gray;
+}
+.header-links > a > i{
+	margin:7px;
+}
+.header-name > h1{
+	font-size:80px;
+}
+.header-name > small{
+	font-size:40px;
+}
+.stats > h1{
+	font-size:60px;
+}
+.stats > ul{
+	font-size:25px;
+	list-style:none;
+}
+.stats{
+	position:absolute;
+	background:#ececed;
+	margin-left:350px;
+	display:none;
+	width:700px;
+	font-family:Cuprum;
+	text-align:center;
+	margin-top:10px;
+}
+.years-war{
+	background:#ececed;
+	margin-left:450px;
+	display:none;
+	width:500px;
+	display:none;
+	height:200px;
+	font-family:Cuprum;
+	text-align:center;
+	margin-top:10px;
+}
+.years-war > a{
+	font-size:25px;
+	padding:15px 15px;
+	color:#ececed;
+	font-size:15;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:#454547;
+
+}
+.years-war > a:hover{
+	padding:23px 23px;
+	transition:0.36s;
+	font-size:27px;
+	color:#ececed;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:gray;
+}
+.year-war1941{
+	background: #ececed;
+	width:98%;
+	position:absolute;
+	margin-left:10px;
+	display:none;
+	margin-top:10px;
+	height:800px;
+}
+.year-war1941 > h1{
+	font-family:Cuprum;
+	font-size:70px;
+}
+.year-war1941 > a{
+	font-size:20px;
+}
+.year-war1941 > iframe{
+	
+	margin-left:10px;
+	position:absolute;
+}
+.year-war1941 > h1,
+.year-war1941 > a,
+.year-war1941 > p{
+	margin-left:10px;
+	font-family: Cuprum;
+	font-size:18px;
+}
+.year-war1941 > p{
+	display:none;
+}
+@media (min-width:1300px){
+html{
+	width:1366px;
+	height:100%;
+	overflow-x: hidden;
+}
+body{
+	height:768px;
+	width:1366px;
+	background:url(IMG/Image URL.jpg);
+}
+.header{
+	width:100%;
+	margin:0;
+	height:20%;
+	background:#ececed;
+}
+.header-name{
+	margin-left:100px;
+	position:absolute;
+	font-family:Cuprum;
+}
+.header-name > h1{
+	font-size:60px;
+}
+.header-name > small{
+	font-size:30px;
+}
+}
